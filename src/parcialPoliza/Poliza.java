@@ -70,7 +70,8 @@ public class Poliza  {
 	}
 	
 	public GastoAdministrativo gastoAdministrativoMasAlto() {
-		return this.getGastosAdministrativos().stream().max(Comparator.comparing(GastoAdministrativo::getMonto)).orElse(null);
+		return this.getGastosAdministrativos().stream()
+											  .max(Comparator.comparing(GastoAdministrativo::getMonto)).orElse(null);
 }
 
 

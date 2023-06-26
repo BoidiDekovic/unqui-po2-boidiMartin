@@ -1,4 +1,4 @@
-package Strategy1;
+package strategy1;
 
 public class EncriptadorNave {
 	
